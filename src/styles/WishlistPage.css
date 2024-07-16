@@ -1,0 +1,35 @@
+.wishlist-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.wishlist-page h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.wishlist-page ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.wishlist-page li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wishlist-page button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.wishlist-page button:hover {
+  background-color: #c0392b;
+}

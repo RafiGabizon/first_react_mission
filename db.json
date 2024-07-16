@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Rafi11",
+      "password": "123456",
+      "fullName": "Rafi Gabizon",
+      "lastLogin": "2024-07-15T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nike Air Trainer 1 SP",
+      "price": 150,
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Jordan 5 Retro Off-White Sail",
+      "price": 450,
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "Jordan 6 Retro Travis Scott British Khaki",
+      "price": 450,
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Travis Scott Free The Rage II Tee",
+      "price": 82,
+      "categoryId": 2
+    },
+    {
+      "id": 5,
+      "name": "Travis Scott x Jordan Flight Graphic T-Shirt",
+      "price": 80,
+      "categoryId": 2
+    }
+
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sneakers"
+    },
+    {
+      "id": 2,
+      "name": "Shirts"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.products-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.products-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.products-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details {
+    font-size: 16px;
+}
+
+.wishlist-button {
+    background-color: #2ecc71;
+    /* צבע ירוק */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wishlist-button:hover {
+    background-color: #27ae60;
+    /* ירוק כהה */
+}

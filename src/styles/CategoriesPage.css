@@ -1,0 +1,77 @@
+.categories-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.categories-page h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.categories-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.categories-page li {
+    margin-bottom: 10px;
+}
+
+.category-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.category-header h2 {
+    margin: 0;
+}
+
+.category-header button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.category-header button:hover {
+    background-color: #2980b9;
+}
+
+.products-list {
+    padding-left: 20px;
+}
+
+.product-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-details {
+    font-size: 14px;
+}
+
+.wishlist-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.wishlist-button:hover {
+    background-color: #c0392b;
+}
